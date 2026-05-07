@@ -13,8 +13,11 @@ This project is a production-ready forecasting backend designed to forecast sale
     * `main.py`: A FastAPI web application that exposes a `/predict` POST endpoint.
 
 ## Installation & Execution
+## Installation & Execution
 1. **Install Dependencies:**
-   `pip install pandas numpy xgboost scikit-learn prophet statsmodels torch fastapi uvicorn holidays openpyxl joblib`
+   Ensure you are in the root directory of the project, then run:
+   ```bash
+   pip install -r requirements.txt
 2. **Train the Models:**
    Navigate to `/ml_engine` and execute `python3 test_run.py`.
 3. **Start the API:**
